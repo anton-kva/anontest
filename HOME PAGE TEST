@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Automate IQ | AI Automation Agency</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f9fb;
+      color: #1e1e1e;
+    }
+    header {
+      background-color: #0f172a;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    nav {
+      margin-top: 1rem;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #ffffffcc;
+    }
+    nav a:hover {
+      color: #ffffff;
+    }
+    .hero {
+      padding: 4rem 2rem;
+      text-align: center;
+      background: linear-gradient(to right, #4f46e5, #6366f1);
+      color: white;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+    .hero button {
+      padding: 1rem 2rem;
+      background: white;
+      color: #4f46e5;
+      border: none;
+      border-radius: 8px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .section {
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 2rem;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      max-width: 300px;
+      flex: 1;
+    }
+    .card h3 {
+      color: #4f46e5;
+      margin-bottom: 0.5rem;
+    }
+    footer {
+      background-color: #0f172a;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+      margin-top: 4rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h2>Automate IQ</h2>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Automate Smarter with AI</h1>
+    <p>AI chat agents, custom automations, and voice AI—engineered to grow your business on autopilot.</p>
+    <button onclick="location.href='#contact'">Get a Free Demo</button>
+  </section>
+
+  <section class="section" id="services">
+    <h2>What We Offer</h2>
+    <div class="services">
+      <div class="card">
+        <h3>AI Chat Agents</h3>
+        <p>Engage leads 24/7 with intelligent, on-brand conversations that convert.</p>
+      </div>
+      <div class="card">
+        <h3>Custom Automations</h3>
+        <p>Automate repetitive tasks across CRM, email, scheduling, and more.</p>
+      </div>
+      <div class="card">
+        <h3>AI Voice Agents</h3>
+        <p>Use AI voice to handle phone calls, bookings, and customer follow-ups.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Let’s Build Your AI System</h2>
+    <p>Contact us at <strong>anton.automateiq@gmail.com</strong> or reach out via socials.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Automate IQ. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
