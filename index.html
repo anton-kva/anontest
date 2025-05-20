@@ -3,119 +3,151 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Automate IQ - AI Automation Agency</title>
+  <title>Automate IQ | AI Automation Agency</title>
   <style>
     body {
+      font-family: 'Segoe UI', sans-serif;
       margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #f4f7fe;
-      color: #1a1a1a;
+      padding: 0;
+      background-color: #f7f9fb;
+      color: #1e1e1e;
     }
-
     header {
-      background-color: #ffffff;
-      padding: 10px 20px;
+      background-color: #0f172a;
+      color: white;
+      padding: 2rem;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+      flex-wrap: wrap;
     }
-
-    header img {
-      height: 50px;
+    .logo {
+      height: 60px;
     }
-
+    nav {
+      margin-top: 1rem;
+    }
     nav a {
-      margin-left: 20px;
+      margin: 0 1rem;
       text-decoration: none;
-      color: #1a1a1a;
-      font-weight: bold;
+      color: #ffffffcc;
     }
-
+    nav a:hover {
+      color: #ffffff;
+    }
     .hero {
+      padding: 4rem 2rem;
       text-align: center;
-      padding: 80px 20px;
+      background: linear-gradient(to right, #4f46e5, #6366f1);
+      color: white;
     }
-
     .hero h1 {
-      font-size: 3rem;
-      margin-bottom: 20px;
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
     }
-
     .hero p {
       font-size: 1.2rem;
-      margin-bottom: 30px;
+      margin-bottom: 2rem;
     }
-
-    .hero a.button {
-      background-color: #3b82f6;
-      color: white;
-      padding: 15px 30px;
-      text-decoration: none;
+    .hero button {
+      padding: 1rem 2rem;
+      background: white;
+      color: #4f46e5;
+      border: none;
       border-radius: 8px;
       font-weight: bold;
+      cursor: pointer;
     }
-
-    .services {
+    .section {
+      padding: 4rem 2rem;
       text-align: center;
-      padding: 60px 20px;
     }
-
-    .services h2 {
-      font-size: 2rem;
-      margin-bottom: 30px;
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 2rem;
     }
-
-    .service-item {
-      margin-bottom: 20px;
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 2rem;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      max-width: 300px;
+      flex: 1;
     }
-
+    .card h3 {
+      color: #4f46e5;
+      margin-bottom: 0.5rem;
+    }
     footer {
-      background-color: #1a1a1a;
+      background-color: #0f172a;
       color: white;
       text-align: center;
-      padding: 20px;
+      padding: 2rem;
+      margin-top: 4rem;
     }
-
-    footer a {
-      color: #3b82f6;
+    .social-button {
+      margin-top: 1rem;
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background-color: #e1306c;
+      color: white;
+      border-radius: 8px;
       text-decoration: none;
+      font-weight: bold;
+    }
+    .social-button:hover {
+      background-color: #c92c5c;
     }
   </style>
 </head>
 <body>
+
   <header>
-    <img src="57542596-a757-43be-8adb-d4d3d62cda3f.png" alt="Automate IQ Logo">
+    <img src="ChatGPT Image May 20, 2025, 12_49_46 PM.png" alt="Automate IQ Logo" class="logo" />
     <nav>
-      <a href="https://www.instagram.com/automateiq_ai/" target="_blank">Instagram</a>
-      <a href="https://calendar.app.google/rySHaxSFcyqv8hf36" class="button">BOOK A FREE CALL</a>
+      <a href="#">Home</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
 
   <section class="hero">
-    <h1>Automate IQ</h1>
-    <p>We build AI chat agents, AI voice agents, and custom automations to scale your business effortlessly.</p>
-    <a href="https://calendar.app.google/rySHaxSFcyqv8hf36" class="button">BOOK A FREE CALL</a>
+    <h1>Automate Smarter with AI</h1>
+    <p>AI chat agents, custom automations, and voice AI—engineered to grow your business on autopilot.</p>
+    <button onclick="location.href='https://calendar.app.google/rySHaxSFcyqv8hf36'">Book a Call</button>
   </section>
 
-  <section class="services">
+  <section class="section" id="services">
     <h2>What We Offer</h2>
-    <div class="service-item">
-      <h3>🤖 AI Chat Agents</h3>
-      <p>Automated chatbots for websites, Instagram, Facebook & more.</p>
+    <div class="services">
+      <div class="card">
+        <h3>AI Chat Agents</h3>
+        <p>Engage leads 24/7 with intelligent, on-brand conversations that convert.</p>
+      </div>
+      <div class="card">
+        <h3>Custom Automations</h3>
+        <p>Automate repetitive tasks across CRM, email, scheduling, and more.</p>
+      </div>
+      <div class="card">
+        <h3>AI Voice Agents</h3>
+        <p>Use AI voice to handle phone calls, bookings, and customer follow-ups.</p>
+      </div>
     </div>
-    <div class="service-item">
-      <h3>🔄 Custom AI Automations</h3>
-      <p>End-to-end automation that saves your team time & money.</p>
-    </div>
-    <div class="service-item">
-      <h3>🎙️ AI Voice Agents</h3>
-      <p>Smart voice agents that answer calls and convert leads 24/7.</p>
-    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Let’s Build Your AI System</h2>
+    <p>Contact us at <strong>anton.automateiq@gmail.com</strong> or reach out via socials.</p>
+    <a href="https://www.instagram.com/automateiq_ai/" class="social-button" target="_blank">Follow us on Instagram</a>
   </section>
 
   <footer>
-    <p>© 2025 Automate IQ • <a href="https://www.instagram.com/automateiq_ai/" target="_blank">Instagram</a></p>
+    <p>&copy; 2025 Automate IQ. All rights reserved.</p>
   </footer>
+
 </body>
 </html>
+
