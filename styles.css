@@ -125,3 +125,36 @@ footer {
   margin-top: 4rem;
 }
 
+header {
+  background-color: #0f172a;
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  height: 120px; /* Twice the original 60px */
+  margin-bottom: 1rem;
+}
+
+nav {
+  margin-top: 0;
+}
+
+nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #ffffffcc;
+}
+
+nav a:hover {
+  color: #ffffff;
+}
+
